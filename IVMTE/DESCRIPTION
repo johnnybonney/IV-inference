@@ -1,0 +1,28 @@
+Package: ivmte
+Title: Implements Estimation Procedure from Mogstad, Torgovitsky (2017)
+Version: 0.0.0.9000
+Authors@R: person("Joshua",
+                  "Shea",
+		  email = "jkcshea@uchicago.edu",
+		  role = c("aut", "cre"))
+Description: This package implements the estimation procedure from
+             Mogstad, Torgovitsky (2017).
+Depends: R (>= 3.4.4)
+Imports:
+	polynom (>= 1.3-9),
+	Formula
+Suggests:
+	gurobi (>= 7.5-1),
+	slam (>= 0.1-42),
+	Rcplex (>= 0.3.3),
+	cplexAPI (>= 1.3.3),
+	lpSolve (>= 5.6.13),
+	lpSolveAPI (>= 3.4.4),
+	splines2 (>= 3.4.4),
+	testthat (>= 2.0.0),
+	data.table (>= 1.11.2),
+	gmm (>= 1.6-2)
+License: GPL-2 | GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
